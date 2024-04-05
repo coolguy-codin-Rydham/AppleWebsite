@@ -1,8 +1,15 @@
+import Hero from "./Components/Hero";
+import HIghlights from "./Components/HIghlights";
+import Navbar from "./Components/Navbar";
+
 const App = () => {
   return (
-  <div>
+  <main className="bg-black">
+    <Navbar/>
+    <Hero/>
+    <HIghlights/>
     
-  </div>
+  </main>
   );
 };
 
